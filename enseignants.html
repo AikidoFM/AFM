@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Enseignants — ACFM</title>
+  <meta name="description" content="Enseignants du club ACFM." />
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Accueil ACFM">
+        <span class="brand__mark">ACFM</span>
+        <span class="brand__text">Aïkido Club Franches-Montagnes</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="sr-only">Ouvrir le menu</span>
+      </button>
+
+      <nav id="nav" class="nav" aria-label="Navigation principale">
+        <a class="nav__link" href="index.html">Accueil</a>
+        <a class="nav__link" href="club.html">Le club</a>
+		<a class="nav__link is-active" href="enseignants.html">Enseignants</a>
+        <a class="nav__link" href="horaires.html">Horaires & tarifs</a>
+        <a class="nav__link" href="galerie.html">Galerie</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="head">
+        <h1>Les enseignants</h1>
+        <p class="muted">Transmission, rigueur et bienveillance.</p>
+      </div>
+
+      <!-- ENSEIGNANT -->
+      <article class="card enseignant">
+        <div class="enseignant__photo">
+          <img src="/assets/images/enseignant-1.jpg" alt="Nom Prénom — enseignant ACFM">
+        </div>
+
+        <div class="enseignant__content">
+          <h2>Nom Prénom</h2>
+          <p class="muted">
+            Grade : Xᵉ dan Aïkido<br>
+            École / fédération : à compléter
+          </p>
+
+          <h3>Parcours</h3>
+          <p>
+            Débute l’aïkido en XXXX. Enseigne depuis XXXX.
+            Participe régulièrement à des stages nationaux et internationaux.
+          </p>
+
+          <h3>Vision de l’enseignement</h3>
+          <p>
+            Une pratique respectueuse du corps, progressive,
+            centrée sur la compréhension des principes,
+            accessible à tous les âges.
+          </p>
+        </div>
+      </article>
+
+      <!-- DUPLIQUE CE BLOC POUR UN AUTRE ENSEIGNANT -->
+      <!--
+      <article class="card enseignant">
+        ...
+      </article>
+      -->
+
+    </div>
+  </section>
+</main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>ACFM</strong><br />
+        <span class="muted small">Aïkido Club Franches-Montagnes</span>
+      </div>
+      <div class="footer__links">
+		<a class="nav__link" href="club.html">Le club</a>
+        <a class="footer__link" href="horaires.html">Horaires</a>
+        <a class="footer__link" href="galerie.html">Galerie</a>
+        <a class="footer__link" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
