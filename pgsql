@@ -1,4 +1,4 @@
-acfm-site/
+AFM-site/
 ├── index.html
 ├── club.html
 ├── horaires.html
