@@ -263,6 +263,15 @@ h3{ font-size: 1.15rem; }
   border: 1px solid var(--line);
 }
 
+.teacher__photo2 img{
+  width:80%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--line);
+}
+
 @media (max-width: 900px){
   .enseignant{
     grid-template-columns: 1fr;
